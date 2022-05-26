@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir -m755 11-directories_permissions
+mkdir 755 11-directories_permissions
