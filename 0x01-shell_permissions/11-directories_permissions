@@ -1,0 +1,2 @@
+#!/bin/bash
+mkdir -m777 11-directories_permissions
