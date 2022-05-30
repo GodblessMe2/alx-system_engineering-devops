@@ -1,2 +1,2 @@
 #!/bin/bash
-cat ./lacta | tail -1 iacta >> lacta
+cat lacta | tail -1 iacta >> lacta
