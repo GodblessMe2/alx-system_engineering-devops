@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -1 /iacta >> /lacta
+tail -1 /tmp/iacta >> /tmp/lacta
