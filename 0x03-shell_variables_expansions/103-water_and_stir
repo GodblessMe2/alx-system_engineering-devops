@@ -1,0 +1,2 @@
+#!/bin/bash
+printf '%o\n' $((6#$(echo $WATER | tr water 012345) + 6#$(echo $STIR | tr stir 012345))) | 01234567 bestchol
