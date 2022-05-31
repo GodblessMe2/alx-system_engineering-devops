@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '10\n' $DECIMAl 
+printf '10 16\n' $DECIMAl 
