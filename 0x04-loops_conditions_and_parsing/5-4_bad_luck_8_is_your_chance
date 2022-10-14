@@ -1,1 +1,18 @@
 #!/usr/bin/env bash
+# Display "Best School" other iteration using a while loop.
+# Display "bad luck" for the 4th loop iteration using a if statement.
+# Display "good luck" for the 8th loop iteration using lif statement
+
+count=0
+while [ $count -lt 10 ]
+do        if  [[ $count == 3 ]]
+	  then
+		  echo "bad luck"
+	  elif [[ $count == 7 ]]
+	  then
+		  echo "good luck"
+	  else
+		  echo "Best School"
+	  fi
+	    (( count++ ))
+done
