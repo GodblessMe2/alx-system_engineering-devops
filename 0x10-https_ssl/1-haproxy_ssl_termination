@@ -46,14 +46,14 @@ frontend www-http
         default_backend web-backend
 
 frontend www-https
-        bind *:443 ssl crt /etc/haproxy/ssl/www.luisch.tech.pem
+        bind *:443 ssl crt /etc/haproxy/ssl/www.alptem.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend web-backend
 
 backend web-backend
         balance roundrobin
         redirect scheme https if !{ ssl_fc }
-        server 47849-web-01 3.85.16.54:80 check
+        server 47849-web-01 100.26.211.113:80 check
         server 47849-web-02 54.237.126.113:80 check
 
 backend letsencrypt-backend
